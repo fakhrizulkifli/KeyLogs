@@ -1,0 +1,2 @@
+bin_PROGRAMS=keylogger
+keylogger_SOURCES=keylogger.c
