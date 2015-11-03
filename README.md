@@ -1,2 +1,2 @@
-# KeyLogs-v1
+# KeyLogs
 A simple user space keylogger.
