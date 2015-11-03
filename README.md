@@ -1,2 +1,3 @@
 # KeyLogs
-A simple user space keylogger.
+
+A simple linux keylogger. Built for fun.
